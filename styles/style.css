@@ -1,24 +1,16 @@
-/*   
-// Podacs v1.0 
-// Podcast Managment System
-// By Alireza Gholami
-// Copyleft (2014)
-*/
 
 /* Highlights */
 ::selection {background: #ccc; color:#fff;}
 ::-moz-selection {background: #ccc; color:#fff;}
 
-/*
-@media
-    
-830
- */   
     
     
 body
-{background: url('../images/bg.png') repeat;}
+{
+	background: url('../images/bg.png') repeat;
 
+
+}
 .center 
 {display:table;margin: auto;}
 h1
@@ -37,7 +29,7 @@ b
 #container-div{
 			position:relative;
 			height:100%;   
-            width: calc(100% - 80px);
+            width: calc(100% - 40px);
             max-width:830px;
 			text-align:center; direction:ltr;}
 
@@ -49,7 +41,7 @@ b
 }
 #logo img
 {
-	width: 50%;
+	width: 35%;
 	margin: 50px 0 0 0;
 }
 #last-describ
@@ -57,44 +49,56 @@ b
 	position: relative; float: left;
 	width: 100%; height: auto;
 	margin: 40px 0 0 0;
-	padding: 10px 0 10px 0;
+	padding: 0 0 10px 0;
 	background: #fff;
 	border-radius: 10px 10px 0 0;
+
 }
+
+#content-img
+{
+	width: calc(100% - 4px);
+	margin: 2px 0 0 0;
+	border-radius: 10px 10px 0 0;
+}
+
+
 #last-describ audio
 {
 	position:relative;
-	width: calc(100% - 20px);
+	width: calc(100% - 10px);
+	margin:15px 0 0 0;
 
 }
 h2
 {
 	margin: 10px 0 0 15px; 
 	text-align: left;
-	font:normal 15pt tahoma;
+	font:normal 16pt serif;
 }
-#description
+#date
 {
  	margin: 0px 0 0 17px; 
 	text-align:left;float: left;
     width: 100%;
     color:#777;
-	font:normal 8.5pt tahoma;   
+	font:normal 8.5pt verdana;   
 }
 
 
 
 
-#last-describ p
+#last-describ #content
 {
 	margin: 10px 20px 0 20px; 
 	text-align: left;
     float:left;
-	font:normal 1em tahoma;
+	font:normal 11pt tahoma;
 	direction: ltr;
-    line-height:1.2em
-
+	line-height: 18px;
 }
+
+
 
 #last-describ-opt-share
 {
@@ -167,7 +171,7 @@ h2
 	background: #eee;
 	border-radius: 0 0 10px 10px;
 	direction: ltr;
-	font-size: 8.5pt;
+
 	color: #aaa;
 	font-family: tahoma;
 }
@@ -182,7 +186,6 @@ h2
 
 a
 {
-	font-size: 10pt;
 	color: #277ab6;
 	text-decoration: none;
 }
@@ -199,7 +202,7 @@ margin-right:5px;
 	position: relative; float: right;
 	margin: 2px 6px 0 5px;
 	direction: ltr;
-	font-size: 8.5pt;
+	font-size: 9pt;
 	color: #aaa;
 	font-family: tahoma;
 
@@ -217,7 +220,7 @@ margin-right:5px;
     width:auto; height: 30px;
     margin: 0 8px 0 0;
     padding: 4px 10px 6px 10px;
-    font: normal 9.3pt tahoma;
+
     color: #6f6f6f;
     background: url('../images/gradiant-bg.png') repeat-x;
     background-size: 1px 34px;
@@ -233,7 +236,7 @@ margin-right:5px;
 	position: relative; float: left;
 	width: calc(100% - 10px); height: auto;
 	padding: 10px 0 35px 10px;
-    margin: 10px 0;
+    margin: 10px 0 0 0;
 	background: #fff;
 	border-radius: 5px;
 }
@@ -265,8 +268,8 @@ margin-right:5px;
 {
     position: relative; float: left;
     width: 100%;
-    height: 16px;
-    font: normal 9.3pt tahoma;
+    height: 18px;
+    font: normal 11pt tahoma;
     color: #5f5f5f;  
 }
 
@@ -274,26 +277,33 @@ margin-right:5px;
 #copyright
 {
 	position: relative; float: left;
-	width: 100%; height: auto;
-	margin: 10px 0 0 0;
-	padding: 10px 5px 40px 0;
+	width: calc(100% - 30px); height: auto;
+	margin: 10px 0 40px 0;
+	padding: 0 15px 0 15px;
 	direction: ltr;
 	color: #888;
-	font-size: 9pt;
+	font-size: 11pt;
 	font-family: tahoma;
 }
+#copyright-left
+{
+	position: relative; float: left;
+	width: 50%; height: auto;
+	text-align:left;
+	direction: ltr;
+	color: #888;
+	font-size: 10pt;
+	font-family: tahoma;
+}
+#copyright-right
+{
+	position: relative; float: right;
+	width:auto; height: auto;
+		text-align:right;
+}
 
 
-input[type=text]
-{
-	padding: 3px 10px 3px 10px;
-	width: 300px;
-}
-textarea
-{
-	padding: 3px 10px 3px 10px;
-	width: 300px; height: 300px;
-}
+
 
 
 
@@ -318,3 +328,14 @@ width:10px; height:12px;}
 #download
 {background-position: -34px 0px;
 width:12px; height:12px;}
+
+
+#error
+{
+	position: relative; float: left;
+	width: calc(100% - 10px); height: auto;
+	padding: 30px 0 35px 10px;
+    margin: 10px 0;
+	background: #fff;
+	border-radius: 5px;
+}

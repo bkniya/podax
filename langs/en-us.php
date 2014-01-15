@@ -11,7 +11,7 @@ function get_lang($langitem,$output=NULL)
 	  "2"=>  "liked",
 	  "3"=>  "Download",
 	  "4"=>  "Share",
-	  "5"=>  "V",
+	  "5"=>  "V", //obsolete
 	  "6"=>  "Last Numbers",
 	  "7"=>  "Facebook",
 	  "8"=>  "Twitter", 
@@ -19,9 +19,11 @@ function get_lang($langitem,$output=NULL)
 	  "10"=> "All right reserved",
 	  "11"=> "Num",
 	  "12"=> "Powered by",
-      "13"=> "MB" ,
-	  "14"=> "P",
-      "15"=> "D",
+      "13"=> "MB" , //obsolete
+	  "14"=> "P", //obsolete
+      "15"=> "D", //obsolete
+      "16"=> "Find us on",
+      "17"=> "and"
     );
 	  
 

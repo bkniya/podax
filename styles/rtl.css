@@ -1,0 +1,108 @@
+/* FontFace */
+@font-face {
+    font-family: 'yekan';
+    src: url('../fonts/yekan.eot');
+    src: url('../fonts/yekan.eot') format('embedded-opentype'),
+        url('../fonts/yekan.woff') format('woff'),
+        url('../fonts/yekan.ttf') format('truetype'),
+        url('../fonts/yekan.svg#Yekan') format('svg');}
+
+body
+{direction:rtl;}
+#container-div
+{direction:rtl;}
+
+h2
+{margin: 10px 15px 0 0; 
+	text-align: right;
+	font:normal 16pt yekan;}
+#date
+{margin: 0px 17px 0 0; 
+	text-align:right;float: right;
+	font:normal 8.5pt tahoma;
+direction:ltr}
+
+#last-describ #content
+{text-align: right;
+    float:right;
+	font:normal 11pt tahoma;
+	direction: rtl;}
+
+#last-describ-opt-share
+{float: left;text-align:right;}
+#last-describ-opt-share label
+{float: right;}
+#last-describ-opt-share span
+{float: right;margin: 0 4px 0 0;}
+
+#last-describ-opt
+{direction: rtl;}
+
+#last-describ-opt span span .icon
+{margin:1px 0 0 3px;
+}
+
+#last-describ-opt-like
+{float: right;
+margin: 0 5px 0 0;
+direction: rtl;}
+
+#like_count
+{float: right;
+	margin: 2px 5px 0 0;
+	direction: rtl;}
+#liker
+{float: right;
+	margin: -5px 0 0 5px;
+	width:auto;
+}
+
+#last-describ-opt-states
+{float:left;margin-left:5px;}
+
+.last-describ-opt-st
+{float: left;
+margin: 2px 5px 0 6px;}
+
+#last-describ-opt-dl
+{float: left;
+margin: -5px 0 0 5px;}
+
+#archive
+{float: right;
+padding: 10px 10px 35px 0;}
+#archive-header
+{float: right;
+margin: 5px -10px 5px 0px;
+padding: 10px 20px 10px 10px;
+border-radius: 4px 0 0 4px;
+direction: rtl;}
+#archive ol
+{position: relative; float: right;
+text-align: right;
+direction: rtl;}
+#archive ol li
+{float: right;}
+
+#copyright
+{float: right;
+direction: rtl;}
+#copyright-left
+{float: right;
+text-align:right;
+direction: rtl;}
+#copyright-right
+{float: left;
+text-align:right;
+font: normal 10pt tahoma;
+}
+
+
+
+
+
+.icon
+{
+float:right;
+  margin: 0 0 0 3px;
+}

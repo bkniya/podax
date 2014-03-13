@@ -1,0 +1,20 @@
+Podax
+podcast managment system
+
+v2.0 (Next)
+-------------
+- Add and modify custom pages
+- Have dedicated AudioPlayer
+- Contact us system
+- Comments system
+
+
+v1.0 (Now)
+-------------
+- Logo, Favicon, Post Image
+- Posts have date
+- Shareing Buttons
+- Like/Disslike system
+- View, Play and Download Counter
+- Download Button
+- Last Numbers Archive
